@@ -20,7 +20,7 @@ body {
 
 }
 .title {
-    margin: 1em 1em 1em 1em;
+    margin: 1em 1em 0 1em;
     text-transform: uppercase;
     font-weight: 900;
     font-style: italic;
