@@ -16,6 +16,25 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <script src="" async defer></script>
+        <!-- using button tag for hamburger to make it highlight for accessibility (better than <div> with tab index) -->
+        <!-- aria class and sr-only added for better accessibility -->
+        <nav>
+            <button class="hamburger" aria-expanded="false">
+                <span class="sr-only">Open/close menu</span>
+                <span class="hamburger__box">
+                    <span class="hamburger__inner"></span>
+                </span>
+            </button>
+            <div class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="">Lorem</a></li>
+                    <li class="navigation__item"><a href="">Ipsum</a></li>
+                    <li class="navigation__item"><a href="">Dolor</a></li>
+                    <li class="navigation__item"><a href="">Sit</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <script src="index.js" async defer></script>
     </body>
 </html>
